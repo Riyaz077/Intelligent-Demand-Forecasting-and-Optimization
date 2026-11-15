@@ -49,3 +49,9 @@ DemandCast/
 
 ### Important limitations
 This is an educational portfolio prototype using synthetic data. The external drivers are simulated and do not represent actual weather, holidays, prices or market conditions. Forecasts are not validated for operational use. Real deployments require reliable business data, backtesting across multiple time windows, monitoring, uncertainty estimates and human review.
+
+## Author
+
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
