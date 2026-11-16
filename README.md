@@ -14,20 +14,14 @@ DemandCast is an end-to-end forecasting portfolio project for business demand pl
 - FastAPI forecast endpoint.
 - Notebook, documentation and tests.
 
-### Quick start
-Python 3.10+ recommended.
+### Quick Start
 
-```bash
-pip install -r requirements.txt
-python scripts/generate_data.py
-python scripts/train.py
-streamlit run app/streamlit_app.py
-```
-
-Start the API:
-```bash
-uvicorn api.main:app --reload
-```
+- Ensure Python 3.10 or later is installed.
+- Install project dependencies using `requirements.txt`.
+- Generate the synthetic dataset using the data generation script.
+- Train the machine-learning models using the training pipeline.
+- Launch the interactive Streamlit dashboard.
+- Start the FastAPI backend separately for API-based access and predictions.
 
 ### Dataset fields
 `date`, `store_id`, `product_id`, `category`, `price`, `promotion`, `temperature`, `holiday`, `demand`.
@@ -50,6 +44,13 @@ DemandCast/
 ### Important limitations
 This is an educational portfolio prototype using synthetic data. The external drivers are simulated and do not represent actual weather, holidays, prices or market conditions. Forecasts are not validated for operational use. Real deployments require reliable business data, backtesting across multiple time windows, monitoring, uncertainty estimates and human review.
 
+### Responsible Use
+
+- Use this project strictly for educational, research, and portfolio purposes.
+- Ensure datasets are legally obtained and comply with data privacy requirements.
+- Protect sensitive information and never expose confidential or personal data.
+- Treat AI predictions as decision-support insights, not guaranteed outcomes.
+- Validate model performance, monitor potential bias, and maintain human oversight before real-world application.
 ## Author
 
 **Mohamed Riyaz S.**  
